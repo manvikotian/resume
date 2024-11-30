@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #9b5e71;
+}
+
+/* Header */
+header {
+    background-color:rgb(220, 187, 227);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #393232;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0066cc;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+section p, section ul {
+    font-size: 1rem;
+    color: #6a4242;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    background-color: #f4f4f9;
+    padding: 15px;
+    border-left: 4px solid #22317d;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 1.3rem;
+    color: #251919;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #d679a5;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+/* Contact Links */
+#contact p {
+    font-size: 1rem;
+    color: #6861f5;
+}
+
+#contact a {
+    color: #2a2626;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #88a4ef;
+}
+
+/* Hover and Transition Effects */
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffe066;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    header nav a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+    section h2 {
+        font-size: 1.8rem;
+    }
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+    </style>
+
+    <!-- Header Section -->
+    <header>
+        <h1>MANVITHA P</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <style>
+        .container{
+            text-align:center;
+        }
+        </style>
+    <div class="container">
+        <h2>Profile Picture</h2>
+        <img src="Image 27.41_4a4f2d1c.jpg" alt="Profile Picture of Manvitha" width="500" height="auto">
+    </div>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>"Hi, I'm Manvitha P, studying Computer Science Engineering at Vivekananda College of Engineering and Technology. I'm passionate about technology and software development. So far, I've learned basic programming in C++, and I'm excited to explore web development. In my free time, I enjoy solving coding challenges."</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Bachelor of Engineering in Computer Science Engineering</strong><br> Vivekananda college of engineering and technology, 2026</li>
+            <li><strong>PUC </strong><br>Narendra PU College Tenkila, Puttur, 2022</li>
+            <li><strong>High School </strong><br> Vivekanadnda Kannada Medium School, Tenkila, Puttur, 2020</li>
+
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2> Skills</h2>
+        <ul>
+            <li>Technical Skills: C++ ,HTML , CSS.</li>
+            <li>Soft Skills:Communication Skill, Teamwork and Collaboration,Creativity.</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Student portfolio creation</h3>
+            <p>Created my portfolio using html and css </p>
+        </div>
+        <div class="project">
+            <h3>Skin White Patch Detection and Remedy Recommendation System Website</h3>
+            <p>Description of the project, tools used, and what was learned.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: manvithakotyan2004@gmail.com</p>
+        <p>LinkedIn: <a href=https://www.linkedin.com/in/manvitha-p-6369782b55>https://www.linkedin.com/in/manvitha-p-6369782b5</a></p>
+        <p>Github: <a href=https://github.com/manvikotian/manvikotian>https://github.com/manvikotian/manvikotian</a></p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Manvitha P. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
